@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.navbar-finpal {
+  background: #ecb02d;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-panel {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  z-index: 1;
+  color:#89919c;
+}
+
+.right-panel {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  right:0;
+  background: rgba(255,255,255,0.9);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  color:rgba(178,178,178,1);
+}
+
+.finpal—logo {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-top: 27px;
+  height: 6%;
+  margin-left: -78px;
+}
+.O-T {
+  display:flex;
+  flex-direction: column;
+  height: 105px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 45px;
+  border-bottom: 1px solid #505050;
+}
+.O-T span {
+  color: #89919c;
+}
+.O-T a {
+  color: #89919c;
+  text-decoration: none;
+  padding:5px;
+}
+
+.settings {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 45px;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  height: 120px;
+}
+
+.left-panel span {
+  padding:5px;
+  color:#89919c;
+  font-family: Avenir;
+}
+.main-transactions {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    align-items: center;
+}
+.transaction-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60%;
+    height: 40px;
+    border-bottom: 1px solid #dedede;
+    padding: 5px;
+    min-width: 350px;
+    font-weight: 900;
+}
+.transaction-title span {
+  min-width:140px;
+  text-align:left;
+}
+.transaction span {
+  min-width:140px;
+  text-align: left;
+}
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 60%;
+    height:40px;
+    border-bottom: 1px solid #dedede;
+    padding:5px;
+    min-width:350px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
